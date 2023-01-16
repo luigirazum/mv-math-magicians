@@ -1,70 +1,237 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <img src="./src/assets/imgs/logo/math-magicians-logo.png" alt="logo" width="100" height="auto" />
+  <br/>
 
-In the project directory, you can run:
+### Math Magicians
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:<br>
+1> Make simple calculations, and<br>2> Read a random math-related quote.<br />
+I'm building this application to learn how to use React.
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Math Magicians\] ](#-math-magicians-)
+    - [Below you can see the wireframe for this App.](#below-you-can-see-the-wireframe-for-this-app)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Available Scripts](#available-scripts)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐ Show your support ](#-show-your-support-)
+  - [📝 License ](#-license-)
 
-### `npm test`
+# 📖 [Math Magicians] <a name="about-project"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*[Math Magicians]* is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+- Make simple calculations.
+- Read a random math-related quote.
 
-### `npm run build`
+By building this application, I'm learning how to use React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="center">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Below you can see the wireframe for this App.
 
-### `npm run eject`
+<p>
+  <sup>It will have a <b>Home Page</b></sup><br>
+  <img src="./src/assets/imgs/screenshots/math_magicians_home.png" alt="HomePage" width="600" height="auto" />
+</p>
+<p>
+  <sup>a <b>Calculator Page</b></sup><br>
+  <img src="./src/assets/imgs/screenshots/math_magicians_calculator.png" alt="HomePage" width="600" height="auto" />
+</p>
+<p>
+  <sup>this <b>Calculator</b> will be embeded in the <b>Calculator Page</b></sup><br>
+  <img src="./src/assets/imgs/screenshots/calculator.png" alt="HomePage" width="300" height="auto" />
+</p>
+<p>
+  <sup>And also a <b>Quotes Page</b></sup><br>
+  <img src="./src/assets/imgs/screenshots/math_magicians_quote.png" alt="HomePage" width="600" height="auto" />
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+</div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Built With <a name="built-with"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Tech Stack <a name="tech-stack"></a>
+This project was bootstrapped with:
+  <ul>
+    <li>
+      <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+      <img align="center" title="ReactJS" alt="react js" width="20px" height="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> Create React App</a>
+    </li>
+  </ul>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Key Features <a name="key-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- *Single Page App (SPA), with three Pages Home, Calculator and Quotes.*
+- *A fully functional Calculator embeded in the Calculator Page.*
+- *DOM manipulation.*
+- *Use of an API to retrieve the Math Quotes.*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Analyzing the Bundle Size
+- <a href="https://luigirazum.github.io/mv-math-magicians/" target="_blank" rel="noopener noreferrer">Math Magicians App - Live Demo (coming soon...)</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need `git` locally installed. Please got to [Getting Started - Installing Git guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the steps described for your system to install `git`.
+
+### Setup
+
+Clone this repository to your desired folder:
+```sh
+  cd my-folder
+  git clone git@github.com:luigirazum/mv-math-magicians.git
+```
+
+### Available Scripts
+
+- #### Run
+    In the project directory, you can run:
+
+    ```sh
+      npm start
+    ```
+
+  - Runs the app in the development mode.
+    - Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - The page will reload when you make changes.
+  - You may also see any lint errors in the console.
+
+- #### Test
+    ```sh
+      npm test
+    ```
+
+   - Launches the test runner in the interactive watch mode.\
+      See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+- #### Build
+    ```sh
+      npm run build
+    ```
+
+  - Builds the app for production to the `build` folder.
+    - It correctly bundles React in production mode and optimizes the build for the best performance.
+  - The build is minified and the filenames include the hashes.
+  - Your app is ready to be deployed!\
+    See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+<!-- 
+### Install
+
+Install this project with:
+```sh
+  cd mv-math-magicians
+  npm install
+```
+
+### Build
+
+To build the project, execute the following command:
+```sh
+  npm run build
+```
+
+### Run
+
+To run tests, run the following command:
+sh
+  npm start
+
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
+```sh
+  npm deploy
+```
+-->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👥 Authors <a name="authors"></a>
+
+👨‍💻 Luis Zubia
+
+- GitHub: <a href="https://github.com/luigirazum" target="_blank" rel="noopener noreferrer">@luigirazum</a>
+- Twitter: <a href="https://twitter.com/LuigiRazum" target="_blank" rel="noopener noreferrer">@LuigiRazum</a>
+- LinkedIn: <a href="https://linkedin.com/in/luiszubia" target="_blank" rel="noopener noreferrer">Luis Raul Zubia Maciel</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] *Add some tabs for different torunaments.*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+In order to improve this project, contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--
+## © Acknowledge <a name="acknowledge"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
+
+## ⭐ Show your support <a name="support"></a>
+
+I really enjoyed making this project, so, if you like it, I appreciate your support giving a ⭐.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--
+## ❓ FAQ <a name="faq"></a>
+
+- *Why should you use this project?*
+
+  - Because you can realize what you can achieve using this amazing tool.
+
+- *Why did I make this project?*
+
+  - In order to start putting in practice the use of WebPack, JS ES6 modules and API's.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
