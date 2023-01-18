@@ -1,0 +1,136 @@
+/* Styles for the Calculator */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+.Calculator,
+button,
+.display {
+  border: 1px solid #d1d1d1;
+}
+
+.Calculator {
+  margin: 0 auto;
+  max-width: 25rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    'disp disp disp disp'
+    'reset neg perc divi'
+    'num7 num8 num9 mult'
+    'num4 num5 num6 subst'
+    'num1 num2 num3 plus'
+    'num0 num0 dec equal';
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0.5em;
+  text-align: end;
+  color: #fff;
+}
+
+button {
+  background-color: #e0e0e0;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.2em 2em;
+}
+
+.divi,
+.mult,
+.subst,
+.add,
+.equal {
+  background-color: #f5913e;
+}
+
+.display {
+  grid-area: disp;
+  background-color: #858694;
+  height: 100%;
+}
+
+.num0 {
+  grid-area: num0;
+}
+
+.num1 {
+  grid-area: num1;
+}
+
+.num2 {
+  grid-area: num2;
+}
+
+.num3 {
+  grid-area: num3;
+}
+
+.num4 {
+  grid-area: num4;
+}
+
+.num5 {
+  grid-area: num5;
+}
+
+.num6 {
+  grid-area: num6;
+}
+
+.num7 {
+  grid-area: num7;
+}
+
+.num8 {
+  grid-area: num8;
+}
+
+.num9 {
+  grid-area: num9;
+}
+
+.decimal {
+  grid-area: dec;
+}
+
+.reset {
+  grid-area: reset;
+}
+
+.neg {
+  grid-area: neg;
+}
+
+.perc {
+  grid-area: perc;
+}
+
+.divi {
+  grid-area: divi;
+}
+
+.mult {
+  grid-area: mult;
+}
+
+.subst {
+  grid-area: subst;
+}
+
+.add {
+  grid-area: plus;
+}
+
+.equal {
+  grid-area: equal;
+}
