@@ -1,27 +1,24 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-class KeyButton extends React.Component {
-  constructor(props) {
-    super(props);
-    this.props = props;
-    this.handlePressKey = this.handlePressKey.bind(this);
-  }
+const KeyButton = (props) => {
+  const handlePressKey = (e) => {
+    const { onPressKey } = props;
+    onPressKey(e);
+  };
 
-  handlePressKey(e) {
-    const { props } = this;
-    props.onPressKey(e);
-  }
-
-  render() {
-    const { keyTag, keyClass } = this.props;
-    return (
-      <button type="button" name={keyTag} className={keyClass} onClick={this.handlePressKey}>
-        { keyTag }
-      </button>
-    );
-  }
-}
+  const { keyTag, keyClass } = props;
+  return (
+    <button
+      type="button"
+      name={keyTag}
+      className={keyClass}
+      onClick={handlePressKey}
+    >
+      { keyTag }
+    </button>
+  );
+};
 
 KeyButton.defaultProps = {
   keyTag: '?',
