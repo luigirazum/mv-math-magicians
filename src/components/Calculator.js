@@ -9,10 +9,8 @@ const Calculator = (props) => {
   const [calcOptions, setCalcOptions] = useState({ total: '0', next: null });
 
   const handlePressKeyButton = (e) => {
-    console.log(calcOptions);
     const newCalcOptions = calculate(calcOptions, e.target.name);
     setCalcOptions(newCalcOptions);
-    console.log(calcOptions);
   };
 
   const { calcKeys, calcKeysNames, title } = props;
