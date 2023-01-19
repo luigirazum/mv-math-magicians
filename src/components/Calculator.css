@@ -22,9 +22,9 @@ button,
   grid-template-rows: repeat(6, 1fr);
   grid-template-areas:
     'disp disp disp disp'
-    'reset neg perc divi'
-    'num7 num8 num9 mult'
-    'num4 num5 num6 subst'
+    'reset neg mod divide'
+    'num7 num8 num9 times'
+    'num4 num5 num6 minus'
     'num1 num2 num3 plus'
     'num0 num0 dec equal';
 }
@@ -45,10 +45,10 @@ button {
   padding: 1.2em 2em;
 }
 
-.divi,
-.mult,
-.subst,
-.add,
+.divide,
+.times,
+.minus,
+.plus,
 .equal {
   background-color: #f5913e;
 }
@@ -111,23 +111,23 @@ button {
   grid-area: neg;
 }
 
-.perc {
-  grid-area: perc;
+.mod {
+  grid-area: mod;
 }
 
-.divi {
-  grid-area: divi;
+.divide {
+  grid-area: divide;
 }
 
-.mult {
-  grid-area: mult;
+.times {
+  grid-area: times;
 }
 
-.subst {
-  grid-area: subst;
+.minus {
+  grid-area: minus;
 }
 
-.add {
+.plus {
   grid-area: plus;
 }
 
