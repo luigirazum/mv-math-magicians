@@ -2,12 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import KeyButton from './KeyButton';
 import Display from './Display';
+import calculate from '../logic/calculate';
 import './Calculator.css';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.props = props;
+    this.state = {
+      total: '0',
+      next: null,
+    };
+
+    this.handlePressKeyButton = this.handlePressKeyButton.bind(this);
+  }
+
+  handlePressKeyButton(e) {
+    const currentState = this.state;
+    const newState = calculate(currentState, e.target.name);
+    this.setState(newState);
   }
 
   render() {
@@ -17,12 +29,21 @@ class Calculator extends React.Component {
       .map((calcKey, index) => {
         const keyName = 'id'.concat(index.toString());
         const classKey = index < 10 ? 'num'.concat(calcKey.toString()) : calcBtnClasses[index - 10];
-        return (<KeyButton key={keyName} keyTag={calcKey} keyClass={classKey} />);
+        return (
+          <KeyButton
+            key={keyName}
+            keyTag={calcKey}
+            keyClass={classKey}
+            onPressKey={this.handlePressKeyButton}
+          />
+        );
       });
 
+    const { total, next } = this.state;
+    const value = !next ? total : next;
     return (
       <div title={title} className="Calculator">
-        <Display result="0" />
+        <Display result={value} />
         {calcButtons}
       </div>
     );
@@ -30,8 +51,8 @@ class Calculator extends React.Component {
 }
 
 Calculator.defaultProps = {
-  calcKeys: '0,1,2,3,4,5,6,7,8,9,.,AC,+/-,%,/,X,-,+,=',
-  calcKeysNames: 'decimal,reset,neg,perc,divi,mult,subst,add,equal',
+  calcKeys: '0,1,2,3,4,5,6,7,8,9,.,AC,+/-,%,÷,x,-,+,=',
+  calcKeysNames: 'decimal,reset,neg,mod,divide,times,minus,plus,equal',
 };
 
 Calculator.propTypes = {
