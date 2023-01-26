@@ -1,3 +1,107 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap');
+
+:root {
+  /* Font weights */
+  --light-fw: 200;
+  --regular-fw: 400;
+  --bold-fw: 700;
+}
+
+/* basic resets */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
 body {
-  background-color: #a0a0a0;
+  max-width: 80vw;
+  height: 100vh;
+  margin-inline: auto;
+  background:
+    center
+    no-repeat
+    linear-gradient(
+      rgba(245, 245, 245, 0.85),
+      rgba(245, 245, 245, 0.85)
+    ),
+    url(../imgs/bg/math_magicians_bg.jpg);
+  backdrop-filter: blur(4px);
+  font-family: 'Manrope', sans-serif;
+  font-weight: var(--light-fw);
+}
+
+.active {
+  font-weight: var(--bold-fw);
+}
+
+.layout {
+  margin: 1em auto;
+  padding: 1em 2em;
+}
+
+.subtitle {
+  color: #4f4f4f;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.layout p {
+  color: initial;
+  text-align: justify;
+  padding: 0.5em 1em;
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+
+.layout .quote,
+.layout .author {
+  padding: 0.5em 3em;
+}
+
+.layout .quote {
+  font-size: 1.85rem;
+}
+
+.layout .author {
+  font-style: italic;
+  color: #4f4f4f;
+  text-align: end;
+}
+
+blockquote::before {
+  position: absolute;
+  left: 0.25em;
+  top: 0.05em;
+  content: open-quote;
+}
+
+blockquote {
+  position: relative;
+  font-weight: var(--bold-fw);
+  font-size: 7rem;
+  quotes: "“" "”" "‘" "’";
+}
+
+.layout.calculator {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0;
+}
+
+.layout.calculator .intro {
+  width: 45%;
+}
+
+.layout.calculator .Calculator {
+  padding: 2em 3.5em;
+}
+
+.layout .display p {
+  align-self: center;
+  text-align: end;
 }

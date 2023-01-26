@@ -20,13 +20,14 @@ I'm building this application to learn how to use React.
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Available Scripts](#available-scripts)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
   - [⭐ Show your support ](#-show-your-support-)
   - [📝 License ](#-license-)
 
@@ -44,20 +45,16 @@ By building this application, I'm learning how to use React.
 ### Below you can see the wireframe for this App.
 
 <p>
-  <sup>It will have a <b>Home Page</b></sup><br>
-  <img src="./src/assets/imgs/screenshots/math_magicians_home.png" alt="HomePage" width="600" height="auto" />
+  <sup>It will have a <b>Home Page</b> that gives the Welcome to its visitors.</sup><br>
+  <img src="./src/assets/imgs/screenshots/mm_full_site_home.png" alt="HomePage" width="600" height="auto" />
 </p>
 <p>
-  <sup>a <b>Calculator Page</b></sup><br>
-  <img src="./src/assets/imgs/screenshots/math_magicians_calculator.png" alt="HomePage" width="600" height="auto" />
+  <sup>a <b>Calculator Page</b> where you can play with the Calculator embeded.</sup><br>
+  <img src="./src/assets/imgs/screenshots/mm_full_site_calculator.png" alt="HomePage" width="600" height="auto" />
 </p>
 <p>
-  <sup>this <b>Calculator</b> will be embeded in the <b>Calculator Page</b></sup><br>
-  <img src="./src/assets/imgs/screenshots/calculator.png" alt="HomePage" width="300" height="auto" />
-</p>
-<p>
-  <sup>And also a <b>Quotes Page</b></sup><br>
-  <img src="./src/assets/imgs/screenshots/math_magicians_quote.png" alt="HomePage" width="600" height="auto" />
+  <sup>And also a <b>Quotes Page</b> that shows a Daily Random Quote from some mathematician.</sup><br>
+  <img src="./src/assets/imgs/screenshots/mm_full_site_quote.png" alt="HomePage" width="600" height="auto" />
 </p>
 
 </div>
@@ -79,18 +76,17 @@ This project was bootstrapped with:
 - *Single Page App (SPA), with three Pages Home, Calculator and Quotes.*
 - *A fully functional Calculator embeded in the Calculator Page.*
 - *DOM manipulation.*
-- *Use of an API to retrieve the Math Quotes.*
+- *It renders a Math Quote randomly.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<!--
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - <a href="https://luigirazum.github.io/mv-math-magicians/" target="_blank" rel="noopener noreferrer">Math Magicians App - Live Demo (coming soon...)</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -184,13 +180,15 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- 
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] *Add some tabs for different torunaments.*
+- [ ] *Use an API to generate the Quotes more dyncamically.*
+- [ ] *Add a Math Challenges page to have some fun.*
+- [ ] *Add effects to the Calculator buttons, so you can see when they are pressed.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -201,12 +199,12 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--
-## © Acknowledge <a name="acknowledge"></a>
 
+## 🙏 Acknowledgments <a name="acknowledgments"></a>
+- 👏 I would like to thank the support of my partners, it is always good to know that they are willing to help always.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 
 ## ⭐ Show your support <a name="support"></a>
 

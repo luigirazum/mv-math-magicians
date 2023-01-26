@@ -1,11 +1,25 @@
 import React from 'react';
-import Calculator from './components/Calculator';
-import './assets/styles/App.css';
+import { Routes, Route } from 'react-router-dom';
+
+// Import pages
+import HomePage from './pages/HomePage';
+import CalcPage from './pages/CalcPage';
+import QuotePage from './pages/QuotePage';
+import NotMatch from './pages/NotMatch';
+import PageHeader from './components/PageHeader';
 
 const App = () => (
-  <div className="App">
-    <Calculator title="Calculator" />
-  </div>
+  <>
+    <PageHeader />
+    <main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="calculator" element={<CalcPage />} />
+        <Route path="quote" element={<QuotePage />} />
+        <Route path="*" element={<NotMatch />} />
+      </Routes>
+    </main>
+  </>
 );
 
 export default App;

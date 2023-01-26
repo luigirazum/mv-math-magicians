@@ -15,8 +15,6 @@ button,
 }
 
 .Calculator {
-  margin: 0 auto;
-  max-width: 25rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
