@@ -1,3 +1,21 @@
+/* basic resets */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
 body {
-  background-color: #a0a0a0;
+  background-color: #f0f0f0;
+  width: 100vw;
+  height: 100vh;
+  background: center
+              no-repeat
+              linear-gradient(rgba(245, 245, 245, 0.85),
+              rgba(245, 245, 245, 0.85)),
+              url(../imgs/bg/math_magicians_bg.jpg);
+  backdrop-filter: blur(4px);
 }
