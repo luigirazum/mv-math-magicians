@@ -20,12 +20,12 @@ I'm building this application to learn how to use React.
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Available Scripts](#available-scripts)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐ Show your support ](#-show-your-support-)
   - [📝 License ](#-license-)
@@ -79,18 +79,18 @@ This project was bootstrapped with:
 - *Single Page App (SPA), with three Pages Home, Calculator and Quotes.*
 - *A fully functional Calculator embeded in the Calculator Page.*
 - *DOM manipulation.*
-- *Use of an API to retrieve the Math Quotes.*
+- *It renders a Math Quote randomly.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!--
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - <a href="https://luigirazum.github.io/mv-math-magicians/" target="_blank" rel="noopener noreferrer">Math Magicians App - Live Demo (coming soon...)</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -184,13 +184,15 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- 
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] *Add some tabs for different torunaments.*
+- [ ] *Use an API to generate the Quotes more dyncamically.*
+- [ ] *Add a Math Challenges page to have some fun.*
+- [ ] *Add effects to the Calculator buttons, so you can see when they are pressed.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
