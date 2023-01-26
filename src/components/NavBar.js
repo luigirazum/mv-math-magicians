@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+// import styles module
+import nbstyles from './NavBar.module.css';
+
 const NavBar = () => {
   const links = [
     {
@@ -23,8 +26,8 @@ const NavBar = () => {
   const navLinks = links.map((link) => {
     const { id, path, text } = link;
     return (
-      <li key={id}>
-        <NavLink to={path}>
+      <li key={id} className={nbstyles.li}>
+        <NavLink to={path} exact="true" className={nbstyles.links}>
           {text}
         </NavLink>
       </li>
@@ -33,7 +36,7 @@ const NavBar = () => {
 
   return (
     <nav>
-      <ul>
+      <ul className={nbstyles.ul}>
         {navLinks}
       </ul>
     </nav>

@@ -68,10 +68,12 @@ const Quote = (props) => {
   const { quote, author } = todaysQuote;
 
   return (
-    <div>
-      <p>{quote}</p>
-      <p>{author}</p>
-    </div>
+    <>
+      <blockquote>
+        <p className="quote">{quote}</p>
+      </blockquote>
+      <p className="author">{author}</p>
+    </>
   );
 };
 

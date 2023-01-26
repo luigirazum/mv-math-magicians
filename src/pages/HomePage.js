@@ -2,8 +2,8 @@ import React from 'react';
 import LoremIpsum from 'react-lorem-ipsum';
 
 const HomePage = () => (
-  <div>
-    <h2>This is the HomePage</h2>
+  <div className="layout">
+    <h2 className="subtitle">Welcome! Let&apos;s discover the Magic of Math&apos;s</h2>
     <LoremIpsum
       p={2}
       avgSentencesPerParagraph={4}

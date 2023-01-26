@@ -1,6 +1,7 @@
 header {
   padding: 1em 2em;
   display: flex;
+  align-items: center;
 }
 
 h1 {

@@ -5,10 +5,10 @@ import Quote from '../components/Quote';
 
 const QuotePage = () => (
   <>
-    <div>
-      <h2>Today&apos;s Quote</h2>
+    <div className="layout">
+      <h2 className="subtitle">Today&apos;s Quote</h2>
+      <Quote />
     </div>
-    <Quote />
   </>
 );
 
