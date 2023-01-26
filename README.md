@@ -27,6 +27,7 @@ I'm building this application to learn how to use React.
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
   - [⭐ Show your support ](#-show-your-support-)
   - [📝 License ](#-license-)
 
@@ -44,20 +45,16 @@ By building this application, I'm learning how to use React.
 ### Below you can see the wireframe for this App.
 
 <p>
-  <sup>It will have a <b>Home Page</b></sup><br>
-  <img src="./src/assets/imgs/screenshots/math_magicians_home.png" alt="HomePage" width="600" height="auto" />
+  <sup>It will have a <b>Home Page</b> that gives the Welcome to its visitors.</sup><br>
+  <img src="./src/assets/imgs/screenshots/mm_full_site_home.png" alt="HomePage" width="600" height="auto" />
 </p>
 <p>
-  <sup>a <b>Calculator Page</b></sup><br>
-  <img src="./src/assets/imgs/screenshots/math_magicians_calculator.png" alt="HomePage" width="600" height="auto" />
+  <sup>a <b>Calculator Page</b> where you can play with the Calculator embeded.</sup><br>
+  <img src="./src/assets/imgs/screenshots/mm_full_site_calculator.png" alt="HomePage" width="600" height="auto" />
 </p>
 <p>
-  <sup>this <b>Calculator</b> will be embeded in the <b>Calculator Page</b></sup><br>
-  <img src="./src/assets/imgs/screenshots/calculator.png" alt="HomePage" width="300" height="auto" />
-</p>
-<p>
-  <sup>And also a <b>Quotes Page</b></sup><br>
-  <img src="./src/assets/imgs/screenshots/math_magicians_quote.png" alt="HomePage" width="600" height="auto" />
+  <sup>And also a <b>Quotes Page</b> that shows a Daily Random Quote from some mathematician.</sup><br>
+  <img src="./src/assets/imgs/screenshots/mm_full_site_quote.png" alt="HomePage" width="600" height="auto" />
 </p>
 
 </div>
@@ -82,7 +79,6 @@ This project was bootstrapped with:
 - *It renders a Math Quote randomly.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!--
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -203,12 +199,12 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--
-## © Acknowledge <a name="acknowledge"></a>
 
+## 🙏 Acknowledgments <a name="acknowledgments"></a>
+- 👏 I would like to thank the support of my partners, it is always good to know that they are willing to help always.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 
 ## ⭐ Show your support <a name="support"></a>
 
