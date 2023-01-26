@@ -1,0 +1,8 @@
+header {
+  padding: 1em 2em;
+}
+
+h1 {
+  font-weight: var(--bold-fw);
+  font-size: 3rem;
+}
