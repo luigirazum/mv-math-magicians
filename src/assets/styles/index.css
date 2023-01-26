@@ -19,8 +19,9 @@
 }
 
 body {
-  width: 100vw;
+  max-width: 80vw;
   height: 100vh;
+  margin-inline: auto;
   background:
     center
     no-repeat
