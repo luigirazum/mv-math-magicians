@@ -6,17 +6,21 @@ import HomePage from './pages/HomePage';
 import CalcPage from './pages/CalcPage';
 import QuotePage from './pages/QuotePage';
 import NotMatch from './pages/NotMatch';
+import NavBar from './components/NavBar';
 
 // Add style sheet
 import './assets/styles/App.css';
 
 const App = () => (
-  <Routes>
-    <Route path="/" element={<HomePage />} />
-    <Route path="calculator" element={<CalcPage />} />
-    <Route path="quote" element={<QuotePage />} />
-    <Route path="*" element={<NotMatch />} />
-  </Routes>
+  <>
+    <NavBar />
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="calculator" element={<CalcPage />} />
+      <Route path="quote" element={<QuotePage />} />
+      <Route path="*" element={<NotMatch />} />
+    </Routes>
+  </>
 );
 
 export default App;
