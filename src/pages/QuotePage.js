@@ -1,5 +1,15 @@
 import React from 'react';
 
-const QuotePage = () => (<div><h2>This is the QuotePage</h2></div>);
+// Add a quote
+import Quote from '../components/Quote';
+
+const QuotePage = () => (
+  <>
+    <div>
+      <h2>Today&apos;s Quote</h2>
+    </div>
+    <Quote />
+  </>
+);
 
 export default QuotePage;
