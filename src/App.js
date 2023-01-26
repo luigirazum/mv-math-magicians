@@ -8,9 +8,6 @@ import QuotePage from './pages/QuotePage';
 import NotMatch from './pages/NotMatch';
 import PageHeader from './components/PageHeader';
 
-// Add style sheet
-import './assets/styles/App.css';
-
 const App = () => (
   <>
     <PageHeader />
