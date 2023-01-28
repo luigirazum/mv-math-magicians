@@ -20,6 +20,7 @@ I'm building this application to learn how to use React.
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [� Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -79,14 +80,15 @@ This project was bootstrapped with:
 - *It renders a Math Quote randomly.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!--
+
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://luigirazum.github.io/mv-math-magicians/" target="_blank" rel="noopener noreferrer">Math Magicians App - Live Demo (coming soon...)</a>
+- <a href="https://mv-math-magicians.onrender.com/" target="_blank" rel="noopener noreferrer">Math Magicians - Live Demo</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
